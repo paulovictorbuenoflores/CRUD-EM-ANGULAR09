@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "Rel;áo Shimano ZEE",
+      "price": "500",
+      "id": 6
+    },
+    {
+      "name": "Produto Teste",
+      "price": "41",
+      "id": 7
+    }
+  ]
+}
