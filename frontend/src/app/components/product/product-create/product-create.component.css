@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;/*vai colocar um elemento em baixo do outro*/
+}
+
+button{
+
+   /* margin-top: 16px;
+    margin-right: 15px;*/
+    margin: 16px 15px 0px 0px;
+
+}
+.mat-card-title{
+    
+    
+    color: brown;
+}

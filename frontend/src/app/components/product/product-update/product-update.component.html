@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title class="titulo">Alterar Produto</mat-card-title>
+    <form >
+        <mat-form-field>
+          <!-- é uma diretiva so que nao é estrutural. éuma diretiva de estilo ou comportamento-->
+          <input matInput placeholder="Nome" name="name"><!--vamos usar o toi databinding, depois adicionamos um atributo name="name"-->
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Preço (R$)"   name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateProduct()"color="primary">
+      Atualizar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+      Cancelar
+    </button>
+  </mat-card>
+  
+  
+  
+  
